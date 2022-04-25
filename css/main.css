@@ -42,6 +42,12 @@ div.carousel-inner div.carousel-caption {
     top: 2%;
     text-align: left;
     right: 50%;
-   
+    
 
+}
+div.carousel-caption h5 {
+    font-size: 0.4rem;
+}
+div.carousel-caption p {
+    font-size: .2rem; 
 }
