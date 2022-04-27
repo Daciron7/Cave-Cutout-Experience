@@ -1,3 +1,34 @@
+div.card-opening {
+    background-color: #333333;
+    color: white;
+    text-align: center;
+}
+div.card-opening div.card {
+    background-color: #333333;
+
+}
+div.card-opening a.btn {
+    background-color: #1E8A49;
+    padding: 2% 15%;
+    margin: 2%;
+}
+
+
+
+div.card-welcome a.btn {
+    margin-top: 20%;
+    padding: 2% 35%;
+
+}
+
+
+
+
+
+
+
+
+
 div.container-fluid {
     background-color: #333333;
     padding-top: 2%;
@@ -19,8 +50,9 @@ div.img-overlay {
     top: 34%;
     bottom: 45%;
     left: 0;
-    right: 10%;
+    right: 12%;
     text-align: center;
+    
 }
 div.img-overlay:before{
     content: '';
@@ -28,26 +60,34 @@ div.img-overlay:before{
     height: 40%;
     
 }
-
+div.img-overlay a {
+    border: none;
+}
 
 
 
 div.card {
     margin: 1.25% auto;
+    border-radius: 5%;
 }
 
+
+
+div.carousel-inner {
+    border-radius: 5%;
+}
 
 div.carousel-inner div.carousel-caption {
     position: absolute;
     top: 2%;
     text-align: left;
-    right: 50%;
+    right: 45%;
     
 
 }
 div.carousel-caption h5 {
-    font-size: 0.4rem;
+    font-size: 1rem;
 }
 div.carousel-caption p {
-    font-size: .2rem; 
+    font-size: .8rem; 
 }
